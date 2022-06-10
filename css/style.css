@@ -1,0 +1,213 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:"H . . . . . . . . . . . . . . . . He"
+                        "Li Be . . . . . . . . . .  B C N O F Ne"
+                        "Na Mg . . . . . . . . . .  Al Si P S Cl Ar"
+                        "K Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr"
+                        "Rb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe"
+                        "Cs Ba descA Hf Ta W Re Os Ir Pt Au Hg Tl Pb Bi Po At Rn"
+                        "Fr Ra descR Rf Db Sg Bh Hs Mt Ds Rg Cn Nh Fl MC Lv Ts Og"
+                        ". . . La Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu"
+                        ". . . Acs Th Pa U Np Pu Am Cm Bk Cf Es Fm MD No Lr";
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.nAtomico {
+    align-items: flex-start;
+    margin: 2px 0 0 2px;
+    font-size: 0.5rem;
+}
+
+.simbolo {
+    align-items: center;
+    font-size: 2rem;
+}
+
+.nome {
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+.massa {
+    padding-top: 5px;
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+.verde {
+    border: 1px solid;
+    color: rgb(40, 199, 0);
+}
+
+.verdeC {
+    border: 1px solid;
+    color:rgb(107, 255, 168);
+}
+
+.azul {
+    border: 1px solid;
+    color: rgb(0, 60, 255);
+}
+
+.azulC {
+    border: 1px solid;
+    color: rgb(0, 204, 255);
+}
+
+.laranja {
+    border: 1px solid;
+    color: orange;
+}
+
+.amarelo {
+    border: 1px solid;
+    color: yellow;
+}
+
+.cinza {
+    border: 1px solid;
+    color: rgb(168, 168, 168);
+}
+
+.vermelho {
+    border: 1px solid;
+    color: red;
+}
+
+.roxo {
+    border: 1px solid;
+    color: rgb(224, 0, 224);
+}
+
+#H  {grid-area: H}
+#He {grid-area: He}
+#Li {grid-area: Li}
+#Be {grid-area: Be}
+#B  {grid-area: B}
+#C  {grid-area: C}
+#N  {grid-area: N}
+#O  {grid-area: O}
+#F  {grid-area: F}
+#Ne {grid-area: Ne}
+#Na {grid-area: Na}
+#Mg {grid-area: Mg}
+#Al {grid-area: Al}
+#Si {grid-area: Si}
+#P  {grid-area: P}
+#S  {grid-area: S}
+#Cl {grid-area: Cl}
+#Ar {grid-area: Ar}
+#K  {grid-area: K}
+#Ca {grid-area: Ca}
+#Sc {grid-area: Sc}
+#Ti {grid-area: Ti}
+#V  {grid-area: V}
+#Cr {grid-area: Cr}
+#Mn {grid-area: Mn}
+#Fe {grid-area: Fe}
+#Co {grid-area: Co}
+#Ni {grid-area: Ni}
+#Cu {grid-area: Cu}
+#Zn {grid-area: Zn}
+#Ga {grid-area: Ga}
+#Ge {grid-area: Ge}
+#As {grid-area: As}
+#Se {grid-area: Se}
+#Br {grid-area: Br}
+#Kr {grid-area: Kr}
+#Rb {grid-area: Rb}
+#Sr {grid-area: Sr}
+#Y  {grid-area: Y}
+#Zr {grid-area: Zr}
+#Nb {grid-area: Nb}
+#Mo {grid-area: Mo}
+#Tc {grid-area: Tc}
+#Ru {grid-area: Ru}
+#Rh {grid-area: Rh}
+#Pd {grid-area: Pd}
+#Ag {grid-area: Ag}
+#Cd {grid-area: Cd}
+#In {grid-area: In}
+#Sn {grid-area: Sn}
+#Sb {grid-area: Sb}
+#Te {grid-area: Te}
+#I  {grid-area: I}
+#Xe {grid-area: Xe}
+#Cs {grid-area: Cs}
+#Ba {grid-area: Ba}
+#descA {grid-area: descA}
+#Hf {grid-area: Hf}
+#Ta {grid-area: Ta}
+#W  {grid-area: W}
+#Re {grid-area: Re}
+#Os {grid-area: Os}
+#Ir {grid-area: Ir}
+#Pt {grid-area: Pt}
+#Au {grid-area: Au}
+#Hg {grid-area: Hg}
+#Tl {grid-area: Tl}
+#Pb {grid-area: Pb}
+#Bi {grid-area: Bi}
+#Po {grid-area: Po}
+#At {grid-area: At}
+#Rn {grid-area: Rn}
+#Fr {grid-area: Fr}
+#Ra {grid-area: Ra}
+#descR {grid-area: descR}
+#Rf {grid-area: Rf}
+#Db {grid-area: Db}
+#Sg {grid-area: Sg}
+#Bh {grid-area: Bh}
+#Hs {grid-area: Hs}
+#Mt {grid-area: Mt}
+#Ds {grid-area: Ds}
+#Rg {grid-area: Rg}
+#Cn {grid-area: Cn}
+#Nh {grid-area: Nh}
+#Fl {grid-area: Fl}
+#MC {grid-area: MC}
+#Lv {grid-area: Lv}
+#Ts {grid-area: Ts}
+#Og {grid-area: Og}
+#La {grid-area: La}
+#Ce {grid-area: Ce}
+#Pr {grid-area: Pr}
+#Nd {grid-area: Nd}
+#Pm {grid-area: Pm}
+#Sm {grid-area: Sm}
+#Eu {grid-area: Eu}
+#Gd {grid-area: Gd}
+#Tb {grid-area: Tb}
+#Dy {grid-area: Dy}
+#Ho {grid-area: Ho}
+#Er {grid-area: Er}
+#Tm {grid-area: Tm}
+#Yb {grid-area: Yb}
+#Lu {grid-area: Lu}
+#Acs{grid-area: Acs}
+#Th {grid-area: Th}
+#Pa {grid-area: Pa}
+#U  {grid-area: U}
+#Np {grid-area: Np}
+#Pu {grid-area: Pu}
+#Am {grid-area: Am}
+#Cm {grid-area: Cm}
+#Bk {grid-area: Bk}
+#Cf {grid-area: Cf}
+#Es {grid-area: Es}
+#Fm {grid-area: Fm}
+#MD {grid-area: MD}
+#No {grid-area: No}
+#Lr {grid-area: Lr}
